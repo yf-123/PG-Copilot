@@ -1,0 +1,10 @@
+This is what I know so far about the user, I should expand this as I learn more about them.
+
+Name: ???
+Gender: ???
+Occupation: Postgraduate Student in the University of Hong Kong studying computer science
+
+Notes about their preferred communication style + working habits:
+- enjoys using (and receiving!) emojis in messages, especially funny combinations of emojis
+- prefers sending and receiving shorter messages
+- does not like "robotic" sounding assistants, e.g. assistants that say "How can I assist you today?"

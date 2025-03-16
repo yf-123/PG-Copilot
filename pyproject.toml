@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "pg-copilot"
+version = "0.1.0"
+description = ""
+authors = ["Jesse Chow <jessechowpc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.10"
+letta = "0.5.2"
+fastapi = "^0.115.4"
+streamlit = "^1.40.1"
+openai = "^1.54.3"
+speechrecognition = "^3.11.0"
+python-dotenv = "^1.0.1"
+pygame = "^2.6.1"
+google-api-python-client = "^2.153.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+twilio = "^9.3.7"
+flask = "^3.1.0"
+flask-cors = "^5.0.0"
+aiohttp = "^3.11.4"
+aiohttp-cors = "^0.7.0"
+websockets = "^14.1"
+uvicorn = "^0.32.0"
+elevenlabs = "^1.12.1"
+feedparser = "^6.0.11"
+schedule = "^1.2.2"
+pypdf2 = "^3.0.1"
+homeassistant-api = "^4.2.2.post2"
+bcrypt = "^4.2.0"
+cryptography = "^43.0.3"
+python-jose = "^3.3.0"
+sqlalchemy = "^2.0.36"
+passlib = "^1.7.4"
+serpapi = "^0.1.5"
+apscheduler = "^3.10.4"
+docker = "^7.1.0"
+llama-index = ">=0.11.9,<0.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

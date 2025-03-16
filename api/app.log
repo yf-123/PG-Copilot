@@ -1,0 +1,58 @@
+2024-11-19 19:45:27,323 - DEBUG - /etc/localtime found
+2024-11-19 19:45:27,326 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:46:38,873 - DEBUG - /etc/localtime found
+2024-11-19 19:46:38,875 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:47:24,324 - DEBUG - /etc/localtime found
+2024-11-19 19:47:24,326 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:49:58,897 - DEBUG - /etc/localtime found
+2024-11-19 19:49:58,899 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:51:09,557 - DEBUG - /etc/localtime found
+2024-11-19 19:51:09,560 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:54:35,080 - DEBUG - /etc/localtime found
+2024-11-19 19:54:35,082 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:55:45,845 - DEBUG - /etc/localtime found
+2024-11-19 19:55:45,846 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:58:47,114 - DEBUG - /etc/localtime found
+2024-11-19 19:58:47,115 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 19:59:08,365 - DEBUG - /etc/localtime found
+2024-11-19 19:59:08,366 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 20:00:29,163 - DEBUG - /etc/localtime found
+2024-11-19 20:00:29,165 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 20:03:53,371 - DEBUG - /etc/localtime found
+2024-11-19 20:03:53,372 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 20:06:11,810 - DEBUG - /etc/localtime found
+2024-11-19 20:06:11,811 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 23:32:55,028 - DEBUG - /etc/localtime found
+2024-11-19 23:32:55,029 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-19 23:37:49,951 - DEBUG - /etc/localtime found
+2024-11-19 23:37:49,952 - DEBUG - 1 found:
+ {'/etc/localtime is a symlink to': 'Asia/Hong_Kong'}
+2024-11-25 15:30:19,416 - INFO - Backing off send_request(...) for 0.7s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa7cf364ef0>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 15:30:40,164 - INFO - Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa7cf366db0>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 15:31:00,339 - INFO - Backing off send_request(...) for 1.9s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa7cf367620>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 15:31:22,289 - ERROR - Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa7cf3655e0>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 18:31:13,868 - INFO - Backing off send_request(...) for 0.9s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2024-11-25 19:23:40,373 - INFO - Backing off send_request(...) for 0.4s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff5c87c60f0>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 19:24:00,780 - INFO - Backing off send_request(...) for 1.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff5c86a4a40>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 19:24:16,987 - INFO - Backing off send_request(...) for 0.7s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff5c8692f90>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 22:05:06,702 - INFO - Backing off send_request(...) for 0.8s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fca8ccd1c10>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 22:08:00,428 - INFO - Backing off send_request(...) for 0.8s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f79bb9f6ba0>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 22:08:21,210 - INFO - Backing off send_request(...) for 0.5s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f79bba30440>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 22:08:41,752 - INFO - Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f79bba31190>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-25 22:09:02,001 - ERROR - Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f79ba682120>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-26 00:07:06,047 - INFO - Backing off send_request(...) for 1.0s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f365e43bc20>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-26 00:07:27,074 - INFO - Backing off send_request(...) for 1.5s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f365d2ff290>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
+2024-11-26 00:07:48,573 - INFO - Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f364dc73680>: Failed to resolve 'us.i.posthog.com' ([Errno -3] Temporary failure in name resolution)")))
